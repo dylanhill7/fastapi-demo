@@ -19,3 +19,7 @@ def add(a: int, b: int):
 @app.get("/square/{a}")
 def square(a: int):
     return {"square": a * a}
+
+@app.get("/dogyears/{a}")
+def dogyears(a: int):
+    return {"dogyears": a/7}
