@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")  # zone apex
 def zone_apex():
-    return {"The New York Jets": "Suck at Football"}
+    return {"The New York Jets are terrible at football"}
 
 @app.get("/sum/{a}/{b}")
 def add(a: int, b: int):
